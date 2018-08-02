@@ -1,0 +1,17 @@
+{
+  "name": "mern-script",
+  "version": "1.0.0",
+  "description": "mern testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Aen",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

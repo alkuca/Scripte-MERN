@@ -1,0 +1,265 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-container{
+  background: linear-gradient(to top, #141E30, #243B55);
+  min-height:100vh;
+  width:100%;
+  padding: 0;
+  position:absolute;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-content-wrapper{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  position:relative;
+  width: 550px;
+  height: 500px;
+  background-color:white;
+  border-radius:25px;
+  box-shadow: 0 0 30px #141414;
+  font-family: "Berlin Sans FB regular","sans-serif";
+  margin:50px;
+  color: rgba(36, 59, 85, 0.86);
+}
+
+.login-content{
+  margin:10%;
+  width:auto;
+}
+
+.login-content h2{
+  font-size:20px;
+}
+
+.login-content input{
+  width:100%;
+  font-size:18px;
+  height:40px;
+  border-color: rgba(188, 188, 188, 0.4);
+  border-width: 1px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius:9px;
+  outline:none;
+  box-sizing: border-box;
+  padding:15px;
+  transition: 0.2s ease-in-out;
+
+}
+
+.login-content input:focus{
+  border-color: rgba(0, 153, 255, 0.53);
+  border-radius:13px;
+  transition:0.15s ease-in-out;
+  box-shadow: none;
+}
+
+.login-buttons{
+  margin-top:65px;
+  display:flex;
+  justify-content: center;
+  font-family: "Berlin Sans FB regular","sans-serif";
+}
+
+
+.button{
+  font-family: "Berlin Sans FB regular","sans-serif";
+  width:150px;
+  height:40px;
+  color:white;
+  font-size:20px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.36);
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+  opacity:0.8;
+  box-shadow:none;
+  transition: 0.2s ease-in-out;
+}
+
+.prijava-button{
+  margin-right:30px;
+  border-radius:9px;
+  background-color:#0099FF;
+}
+.prijava-button a{
+  text-decoration:none !important;
+  color:white;
+}
+
+.registracija-button{
+  margin-left:30px;
+  border-radius:9px;
+  background-color: #243b55;
+}
+
+.registracija-button a{
+  text-decoration:none !important;
+  color:white;
+}
+.login-content span{
+  color:#6D6D6D;
+  font-size:12px;
+  opacity:0.6;
+  display:flex;
+  text-align: right;
+  flex-direction: column;
+  margin-top:8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login-content span:hover{
+  color: #3d3d3d;
+}
+
+.button-span-text{
+  font-size:18px !important;
+  color: rgba(109, 109, 109, 0.90) !important;
+  cursor:default !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.register-container{
+  background: linear-gradient(to top, #141E30, #243B55);
+  min-height:100vh;
+  width:100%;
+  padding: 0;
+  bottom:0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-content-wrapper{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  position:relative;
+  width: 530px;
+  height: 620px;
+  background-color:white;
+  border-radius:25px;
+  box-shadow: 0 0 30px #141414;
+  font-family: "Berlin Sans FB regular","sans-serif";
+  margin:25px;
+  color: rgba(36, 59, 85, 0.86);
+}
+
+.register-content{
+  margin:10%;
+  width:auto;
+}
+
+.register-content h2{
+  font-size:20px;
+}
+
+.register-content input{
+  width:100%;
+  font-size:18px;
+  height:40px;
+  border-color: rgba(188, 188, 188, 0.4);
+  border-width: 1px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius:9px;
+  outline:none;
+  box-sizing: border-box;
+  padding:15px;
+}
+
+.register-content input:focus{
+  border-color: rgba(0, 153, 255, 0.53);
+  border-radius:13px;
+  transition:0.15s ease-in-out;
+  box-shadow: none;
+}
+
+.register-buttons{
+  margin-top:35px;
+  display:flex;
+  justify-content: center;
+  font-family: "Berlin Sans FB regular","sans-serif";
+}
+
+.register-content span{
+  color:#6D6D6D;
+  font-size:12px;
+  opacity:0.6;
+  display:flex;
+  text-align: right;
+  flex-direction: column;
+  margin-top:8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.registracija-button-submit{
+  background-color: #243b55;
+  border-radius:9px;
+}
+
+.registracija-button-submit:hover{
+  opacity:0.8;
+}
+.registracija-button-submit a{
+  text-decoration:none;
+  color:white;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .register-content input{
+    width:100%;
+    font-size:16px;
+    height:30px;
+    padding:10px;
+  }
+  .register-content-wrapper{
+    width: 430px;
+    height: 530px;
+    margin:25px;
+  }
+  .register-buttons{
+    margin-top:20px;
+  }
+
+
+  .login-content-wrapper{
+    width: 320px;
+    height: 500px;
+    margin:25px;
+  }
+}

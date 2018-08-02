@@ -1,0 +1,34 @@
+
+
+.Modal-kolegij-content-item:hover{
+    background-color: #d8d8d8;
+}
+
+.add-kolegij-modal-button{
+    outline:none;
+    border:none;
+    color:white;
+    background-color:#18A2FF;
+    width:70px;
+    height:35px;
+    margin-top:7.5px;
+    border-radius: 8px;
+}
+
+.add-kolegij-modal-button:hover{
+
+}
+
+.add-kolegij-modal-button:hover{
+    cursor:pointer;
+    opacity:0.7;
+}
+
+.Modal-kolegij-content-item {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+    box-sizing: border-box;
+}
+
